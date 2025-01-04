@@ -1,8 +1,5 @@
 import requests
 
-# HERE API credentials
-API_KEY = 'Y4tmwhZ3goXf6hoPNVjRedxpLOM-UlDSuw9KOKGlmIM'
-
 # Define the start and end points
 start_point = "52.5160,13.3779"  # Example: Berlin
 end_point = "48.8566,2.3522"    # Example: Paris
@@ -17,7 +14,6 @@ params = {
     'destination': end_point,
     'routingMode': 'fast',  # Standard routing mode
     'return': 'summary',   # Use 'summary' for basic route details
-    'apikey': API_KEY
 }
 
 # Make the API request
